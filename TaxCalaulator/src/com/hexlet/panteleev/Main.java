@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        
+
         // write your code here
         System.out.println("Введите сумму: ");
         Scanner scan = new Scanner(System.in);
@@ -15,7 +15,7 @@ public class Main {
         Scanner scan1 = new Scanner(System.in);
         double percent = scan1.nextDouble();
 
-        double endSum = (cash*percent)/100 + cash;
+        double endSum = (cash * percent) / 100 + cash;
         System.out.println("Сумма с учетом процентов: " + endSum);
     }
 }
