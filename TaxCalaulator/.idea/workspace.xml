@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaf52ee5-ef64-4b2e-906c-dac69a14910d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Приложение к программе.doc" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/out/production/TaxCalaulator/com/hexlet/panteleev/Main.class" afterPath="$PROJECT_DIR$/out/production/TaxCalaulator/com/hexlet/panteleev/Main.class" />
     </list>
@@ -190,7 +189,7 @@
       <updated>1521806834814</updated>
       <workItem from="1521806838804" duration="240000" />
       <workItem from="1521807118430" duration="3397000" />
-      <workItem from="1521971880566" duration="213000" />
+      <workItem from="1521971880566" duration="224000" />
     </task>
     <task id="LOCAL-00001" summary="repo">
       <created>1521807394107</created>
@@ -227,11 +226,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521971908323</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="repo">
+      <created>1521972097338</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1521972097338</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3850000" />
+    <option name="totallyTimeSpent" value="3861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1032" extended-state="6" />
