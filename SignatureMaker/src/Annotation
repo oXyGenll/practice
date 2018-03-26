@@ -1,0 +1,15 @@
+Title: Signature Maker
+Difficulty: 1
+Description: Make a program which gives the user the ability to generate either an email signature or forum signature for their posts. Ask the user to enter in some free form text or HTML and control the placement or its alignment. In turn, the program will generate text that they can copy and paste into their email program or into their profiles on a forum.
+
+Tips: This can be a very simple program. Provide a text box and a few buttons on a form. Allow the user to enter text into the textbox as they see fit. Make sure you keep track of the lines and carriage returns (those may need to become HTML <br/> tags for web forums). When they click a button, add on some more text to what they have written (in other words concatenate). The goal here is to allow the user to build up a paragraph of text/HTML which is formatted in such a way that they can then just copy and paste it into the program of their choice.
+
+Added Difficulty: Allow the user to insert graphics such as a userbar, banner or icon. Remember that the user may need to upload the graphic to a web forum if they wish to use it there.
+
+Название: Signature Maker
+Сложность: 1
+Описание: Создайте программу, которая дает пользователю возможность генерировать подпись подписи или подпись форума для своих сообщений.  Попросите пользователя ввести какой-либо текст свободной формы или HTML и контролировать размещение или его выравнивание.  В свою очередь, программа будет генерировать текст, который они могут скопировать и вставить в свою программу электронной почты или в свои профили на форуме.
+
+Советы: Это может быть очень простая программа.  Предоставьте текстовое поле и несколько кнопок в форме.  Разрешить пользователю вводить текст в текстовое поле по своему усмотрению.  Удостоверьтесь, что вы отслеживаете строки и возврат каретки (возможно, для HTML-тегов HTML должны быть теги для веб-форумов).  Когда они нажимают кнопку, добавьте еще какой-нибудь текст к тому, что они написали (другими словами, конкатенация).  Цель состоит в том, чтобы позволить пользователю создать абзац текста / HTML, который отформатирован таким образом, что затем он может просто скопировать и вставить его в выбранную программу.
+
+Добавлено Сложность. Позвольте пользователю вставлять графику, такую ​​как панель пользователя, баннер или значок.  Помните, что пользователю может потребоваться загрузить графику на веб-форум, если они захотят ее использовать.
