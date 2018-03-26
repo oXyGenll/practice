@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MergeArrays/MergeArrays.iml" filepath="$PROJECT_DIR$/MergeArrays/MergeArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Polindrom/Polindrom.iml" filepath="$PROJECT_DIR$/Polindrom/Polindrom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TaxCalaulator/TaxCalaulator.iml" filepath="$PROJECT_DIR$/TaxCalaulator/TaxCalaulator.iml" />
+    </modules>
+  </component>
+</project>
