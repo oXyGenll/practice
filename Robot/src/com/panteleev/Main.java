@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        Robot robot = new Robot(0, 0, Direction.RIGHT);
-        Robot.moveRobot(robot, 5, 5);
+        Robot robot = new Robot(0, 0, Direction.UP);
+        Robot.moveRobot(robot, -5, -5);
     }
 }

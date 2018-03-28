@@ -72,27 +72,38 @@ public class Robot {
         switch (robot.getDirection()) {
             case UP:
                 if (((robot.getY() - toY) != 0) || ((robot.getX() - toX) != 0)) {
-                    if ((robot.getY() - Math.abs(toY)) < 0) {
-                        while ((Math.abs(toY) - robot.getY()) != 0) { // Move UP
+                    if (robot.getY() < toY) {
+                        while (toY > robot.getY()) { // Move UP
                             robot.stepForward();
+                        }
+                        if (robot.getX() > toX) {
+                            robot.turnLeft();
+                            while (toX < robot.getX()) {
+                                robot.stepForward();
+                            }
+                        } else {
+                            robot.turnRight();
+                            while (robot.getX() < toX) {
+                                robot.stepForward();
+                            }
                         }
                     } // Move DOWN
                     else {
                         robot.turnLeft();
                         robot.turnLeft();
-                        while ((Math.abs(toY) - robot.getY()) != 0) {
+                        while (toY < robot.getY()) {
                             robot.stepForward();
                         }
-                        break;
-                    }
-                    if ((robot.getX() - toX) < 0) {
-                        while ((toX - robot.getX()) != 0) {
-                            robot.stepForward();
-                        }
-                    } else {
-                        robot.turnLeft();
-                        while ((robot.getX() - toX) != 0) {
-                            robot.stepForward();
+                        if (robot.getX() > toX) {
+                            robot.turnRight();
+                            while (toX < robot.getX()) {
+                                robot.stepForward();
+                            }
+                        } else {
+                            robot.turnLeft();
+                            while (robot.getX() < toX) {
+                                robot.stepForward();
+                            }
                         }
                     }
                     break;
